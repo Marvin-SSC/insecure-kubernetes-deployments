@@ -26,4 +26,4 @@ jobs:
         with:
           xygeni_url: https://api.xygeni.io
           token: ${{ secrets.XYGENI_TOKEN }}
-          gh_token: ${{ secrets.GH_PAT }}
+          gh_token: ${{ secrets.PAT_FOR_XYGENI_SCAN }}
